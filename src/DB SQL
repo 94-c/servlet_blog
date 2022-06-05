@@ -1,0 +1,8 @@
+/************** 게시판 **************/
+create table board(
+	`id` bigint(20)	auto_increment primary key,
+	`title` varchar(200),
+	`content` varchar(200),
+	`created_at` timestamp,
+	`update_at` timestamp
+);
