@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: hyeongwoo
-  Date: 2022/06/04
-  Time: 10:08 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
@@ -13,4 +6,7 @@
   <body>
   $END$
   </body>
+  <script type="text/javascript">
+    window.location.href = '/main.do';
+  </script>
 </html>

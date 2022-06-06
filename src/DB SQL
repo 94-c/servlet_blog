@@ -7,8 +7,8 @@ create table board(
 	`update_at` timestamp
 );
 
-/************** 게시판 **************/
-create table board(
+/************** 공지 게시판 **************/
+create table notice_board(
 	`id` bigint(20)	auto_increment primary key,
 	`title` varchar(200),
 	`content` varchar(200),

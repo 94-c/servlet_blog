@@ -2,7 +2,7 @@ package com.blog.model;
 
 import java.util.Date;
 
-public class Board {
+public class NoticeBoard {
 
     private Integer id;
     private String title;
